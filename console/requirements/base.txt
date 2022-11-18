@@ -2,7 +2,7 @@
 argon2-cffi==20.1.0
 
 # Django
-Django==2.2.24
+Django==3.2.15
 
 # Forms
 django-crispy-forms==1.12.0
@@ -60,3 +60,5 @@ tld==0.12.6
 
 # XML to JSON
 xmljson==0.2.1
+pyjwt>=2.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
