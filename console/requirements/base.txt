@@ -60,3 +60,4 @@ tld==0.12.6
 
 # XML to JSON
 xmljson==0.2.1
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
