@@ -7,3 +7,4 @@ requests==2.25.1
 
 # Useful for requests debugging.
 requests-toolbelt==0.9.1
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
